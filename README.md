@@ -1,1 +1,1 @@
-# manifesto
+# the-object
