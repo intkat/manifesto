@@ -190,7 +190,7 @@ p {
 .container  {
   position: relative;
   width: 100%;
-  max-width: 1410px;
+  max-width: 2410px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
@@ -379,22 +379,25 @@ width: 25%;
 
   .columnone {
   font-size: 42px;
+  width: 25%;
 
   }
 
   .columntwo {
     font-size: 24px;
-
+    width: 25%;
   }
 
 
   .columnthree {
     font-size: 17px;
+    width: 25%;
 
   }
 
   .columnfour {
     font-size: 62px;
+    width: 25%;
   }
 
   .img-1 {
