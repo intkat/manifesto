@@ -132,31 +132,35 @@ p {
 
 .columnone {
   transition: all .4s ease;
-  padding-left: 25px;
-  padding-right: 25px;
+  padding-left: 15px;
+  padding-right: 15px;
   padding-top: 9px;
   width: 25%;
+  height: 99%;
   overflow-y: auto;
   max-height: calc(100vh - 18px);
   top: 0;
   position: relative;
   font-style: normal;
   font-weight: normal;
-  font-size: 15px;
+  font-size: 13px;
   border-left: 2px solid #000000;
   border-bottom: 2px solid #000000;
   border-right: 2px solid #000000;
   line-height: 110%;
   z-index: 2;
-  
+   -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
 }
 
 .columntwo {
   transition: all .4s ease;
-  padding-left: 25px;
-  padding-right: 25px;
+  padding-left: 15px;
+  padding-right: 15px;
   padding-top: 7px;
   width: 25%;
+  height: 99%;
   overflow-y: auto;
   max-height: calc(100vh - 18px);
   z-index: 2;
@@ -165,15 +169,18 @@ p {
   font-weight: normal;
   border-bottom: 2px solid #000000;
   border-right: 2px solid #000000;
-  font-size: 28px;
+  font-size: 25px;
   line-height: 32px;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
 }
 
 
 .columnthree {
   transition: all .4s ease;
-  padding-left: 25px;
-  padding-right: 25px;
+  padding-left: 15px;
+  padding-right: 15px;
   padding-top: 3px;
   width: 25%;
   overflow-y: auto;
@@ -186,12 +193,15 @@ p {
   border-right: 2px solid #000000;
   font-size: 55px;
   line-height: 110%;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
 }
 
 .columnfour {
   transition: all .4s ease;
-  padding-left: 25px;
-  padding-right: 25px;
+  padding-left: 15px;
+  padding-right: 15px;
   padding-top: 3px;
   width: 25%;
   overflow-y: auto;
@@ -203,7 +213,7 @@ p {
   border-bottom: 2px solid #000000;
   border-right: 2px solid #000000;
   font-size: 110px;
-  line-height: 103px;
+  line-height: 110%;
   -webkit-hyphens: auto;
   -ms-hyphens: auto;
   hyphens: auto;
@@ -321,24 +331,10 @@ p {
   z-index: 10;
 }
 
-/*.img-small:hover {
-  transform: scale(7);
-  z-index: 20;
-}*/
-
 .img-active {
   display: block;
 }
 
-/*.img-big img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-
-.img-big {
-  margin-bottom: 10px;
-}*/
 .row-inner-nav>.column-header_full {
   border-right: 2px solid #000000;
   width: 100%;
@@ -565,25 +561,54 @@ p {
   .container {
     padding-left: 0px;
     padding-right: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
   }
 
   .columnone {
-  font-size: 17px;
+  font-size: 13px;
+  line-height: 110%;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+  width: 25%;
+  height: 99%;
+  hyphens: auto;
   }
 
   .columntwo {
     font-size: 19px;
+    line-height: 110%;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    width: 25%;
+    height: 99%;
+    hyphens: auto;
   }
 
 
   .columnthree {
-    font-size: 15px;
-  
-
+    font-size: 25px;
+    line-height: 110%;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    width: 25%;
+    height: 99%;
+    hyphens: auto;
   }
 
   .columnfour {
-    font-size: 36px;
+    font-size: 31px;
+    line-height: 110%;
+    padding-bottom: 25px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    width: 25%;
+    height: 99%;
+    hyphens: auto;
   }
 
   .pdf,
