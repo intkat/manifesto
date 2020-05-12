@@ -6,6 +6,7 @@ $(document).ready(function() {
 		$('.hello').hide();
 		$('.choice').show();
 	});
+	
 
 	if($(window).width() < 1440){
 		$('.js--choice_show').click( function(){
