@@ -25,7 +25,7 @@ $(document).ready(function() {
 
 	$('body').on('click', '.js--img-active', function(){
 		if(!$('.pics .img-small').hasClass('img-active')) {
-			setTimeout(removeImg,20000);
+			setTimeout(removeImg,30000);
 		}
 		const imgCount = $('.pics .img-small').length;
 		if ($('html').hasClass('img-active')) {
